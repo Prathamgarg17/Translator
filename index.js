@@ -13,5 +13,4 @@ app.post("/translate", (req, res) => {
     .catch((err) => res.json({ message: err.message, status: err.status }));
 });
 
-
 app.listen(3000, () => console.log("Server is running on port 3000"));
